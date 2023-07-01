@@ -2,7 +2,7 @@
  
 class Person:
     def __init__(self, name, surname, alias="Sin Alias"):
-        self.fullname = f"{name} {surname}"
+        self.fullname = f"{name} {surname}" #publica
         self.__name= name #privada
     
     def getname(self):
