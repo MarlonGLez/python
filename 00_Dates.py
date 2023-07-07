@@ -22,3 +22,27 @@ def print_date(date):
 year_2023= datetime(2023, 1, 1) #definir fecha en especifico
 
 print_date(year_2023)
+
+from datetime import time
+
+current_time= time(21, 6 ,10)
+print(current_time.hour)
+print(current_time.minute)
+print(current_time.second)
+
+from datetime import date
+current_date= date(2023, 6 ,10)
+current_day = date.today()
+print(current_date.day)
+print(current_date.year)
+print(current_date.month)
+print(current_day)
+
+current_date = date(current_date.year, current_date.month +1, current_date.day)
+print(current_date)
+
+from datetime import timedelta 
+time_delta= timedelta()
+
+
+
