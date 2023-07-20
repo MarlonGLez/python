@@ -67,3 +67,21 @@ def is_primo():
             if not tiene_primos:
                  print(f"{number}""  ""Es Primo")
 is_primo()
+
+"""
+ * Crea un programa que invierta el orden de una cadena de texto
+ * sin usar funciones propias del lenguaje que lo hagan de forma automática.
+ * - Si le pasamos "Hola mundo" nos retornaría "odnum aloH"
+ */
+"""
+
+def invertir_cadenas(cadena):
+    reversed_text=""
+    tex_len= len(cadena)
+    len(cadena)
+    for index in range(0,len(cadena)):
+        reversed_text+= cadena[tex_len - index -1]
+    
+    return reversed_text
+
+print(invertir_cadenas("Hola Mundo"))
