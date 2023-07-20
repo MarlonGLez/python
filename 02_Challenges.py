@@ -57,9 +57,13 @@ fibonaci_sucec()
  */
 """
 def is_primo():
-    for i in range(1,100):
-        for primo in range(1,i):
-            if i/1==i and i%primo==1:
-                print(f"{i}"+"es primo")
-                break
+    for number in range(1,101):
+        if number >= 2:
+            tiene_primos=False
+            for primo in range(2,number):
+                if number % primo == 0:
+                    tiene_primos=True
+                    break
+            if not tiene_primos:
+                 print(f"{number}""  ""Es Primo")
 is_primo()
