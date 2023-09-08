@@ -1,6 +1,5 @@
-Mi nombre es marlon
-Mi Apellido Gonzalez
-35 AÃ±os
-Y mi lenguage Preferido es Python
-Aunque tambin kotlin
+Mi nombre es marlo
+Mi apellido gonzalwz
+35 años
+Lenguage preferido python
 Aunque tambin kotlin

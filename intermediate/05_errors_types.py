@@ -20,3 +20,11 @@ import math
 # AttributeError
 #print(math.pI) #Descomentar para Error
 print(math.pi)
+
+#keyError
+my_other_dict = {"nombre":"Marlon", "Apellido":"Gonzalez", "Edad":31, 1:"Python"}
+print(my_other_dict["edad"])
+#print(my_other_dict["apelido"]) # Descomentar para Error
+
+
+

@@ -44,6 +44,6 @@ def filter_greater_ten(number):
 print(list(filter(filter_greater_ten,numbers)))
 print(list(filter(lambda number: number>10,numbers)))
 
-# Reduce
 
-reduce()
+
+
