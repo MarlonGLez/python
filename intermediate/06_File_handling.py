@@ -23,5 +23,35 @@ json_file = open("intermediate/my_file.json","w+")
 json_text = {"Name":"Marlon",
              "Surname":"Gonzalez",
              "Age":31,
-             "Language":"Python"}
-json.dump()
+             "Languages":["Python", "Swift" ,"Code"]}
+json.dump(json_text,json_file, indent = 2)
+
+json_file.close()
+
+with open("intermediate/my_file.json") as my_other_file: 
+    for line in my_other_file.readlines():
+      print (line)
+
+json_dict = json.load(open("intermediate/my_file.json"))
+print(json_dict)
+print(type(json_dict))
+print(json_dict["Name"])
+
+#.csv file
+import csv
+csv_file = open("intermediate/my_file.csv","w+")
+csv_writer= csv.writer(csv_file)
+csv_writer.writerow(["name", "surname", "age", "language"])
+csv_writer.writerow(["Marlon", "Gonzalez", 31, "Python"])
+
+csv_file.close()
+
+with open("intermediate/my_file.csv") as my_other:
+    for line in my_other.readlines():
+        print(line)
+
+#.xlsx file
+#hay q instalar el modulo
+
+#.xlm file
+import xml
